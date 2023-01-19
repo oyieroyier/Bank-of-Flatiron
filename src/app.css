@@ -39,9 +39,10 @@ body {
   padding: 15px;
   border-radius: 10px;
   background: #cfb997;
-  border: 1px solid #567189;
-  width: 90%;
+  border: none;
+  width: 70%;
   border-radius: 100px;
+  margin: 5px;
 }
 .one-container .search-box form input {
   background: #cfb997;
@@ -62,6 +63,24 @@ body {
 }
 .one-container .search-box form button:hover {
   color: #999;
+}
+
+.searching {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 50px;
+  background: #cfb997;
+  border: 1px solid #567189;
+}
+.searching button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.searching button i {
+  font-size: 30px;
+  color: #567189;
 }
 
 table {

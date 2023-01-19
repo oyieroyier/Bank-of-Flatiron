@@ -19,7 +19,7 @@ function AddTransactionForm({ newData }) {
 				"Please enter valid date\nYear is expected to be between 2000 and today"
 			);
 		} else if (!formInput.isInvalid) {
-			fetch("http://localhost:8000/transactions", {
+			fetch("https://flatiron.vercel.app/transactions", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

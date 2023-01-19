@@ -9,7 +9,7 @@ function AccountContainer() {
 	const [search, setSearch] = useState("");
 
 	useEffect(() => {
-		fetch("https://api.npoint.io/1a81959eb42f2050e8cc/transactions/")
+		fetch("https://flatiron.vercel.app/transactions")
 			.then((response) => response.json())
 			.then((data) => setTransactions(data));
 	}, []);

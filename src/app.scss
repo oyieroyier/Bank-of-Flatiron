@@ -36,9 +36,10 @@ body {
 			padding: 15px;
 			border-radius: 10px;
 			background: #cfb997;
-			border: 1px solid #567189;
-			width: 90%;
-					border-radius: 100px;
+			border: none;
+			width: 70%;
+			border-radius: 100px;
+			margin: 5px;
 		}
 		form {
 			input {
@@ -63,6 +64,25 @@ body {
 					color: #999;
 				}
 			}
+		}
+	}
+}
+.searching {
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 50px;
+	background: #cfb997;
+	border: 1px solid #567189;
+
+	button {
+		border: none;
+		background: none;
+		cursor: pointer;
+
+		i {
+			font-size: 30px;
+			color: #567189;
 		}
 	}
 }
