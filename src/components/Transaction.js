@@ -2,7 +2,7 @@ import React from "react";
 
 function Transaction({id, date, description, category, amount}) {
   function handleDelete(event){
-    fetch(`https://flatiron.vercel.app/transactions${id}`, {
+    fetch(`https://api.npoint.io/1a81959eb42f2050e8cc/transactions/${id}`, {
 			method: "DELETE",
 			headers: {
 				"Content-Type": "application/json",

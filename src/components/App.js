@@ -1,6 +1,6 @@
 import React from "react";
 import "../app.css";
-import AccountContainer from "./AccountContainer";
+import Home from "./Home";
 
 function App() {
 	return (
@@ -8,7 +8,7 @@ function App() {
 			<div className="title-div">
 				<h2 className="page-name">The Royal Bank of Flatiron</h2>
 			</div>
-			<AccountContainer />
+			<Home />
 		</div>
 	);
 }
